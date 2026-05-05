@@ -13,7 +13,7 @@ public class Palindrome {
             rev = rev + str.charAt(i);
         }
 
-       // System.out.println("Reversed String = " + rev);
+       System.out.println("Reversed String = " + rev);
 
         if(str.equals(rev)) {
             System.out.println("Palindrome");
